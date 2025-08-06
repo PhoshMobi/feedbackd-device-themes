@@ -1,3 +1,11 @@
+feedbackd-device-themes (0.8.5) experimental; urgency=medium
+
+  * treewide: Add key-{pressed,released} events.
+    We use the same feedback as for button pressed,released
+    as that is what current OSKs use.
+
+ -- Guido Günther <agx@sigxcpu.org>  Wed, 06 Aug 2025 08:39:19 +0200
+
 feedbackd-device-themes (0.8.4) experimental; urgency=medium
 
   * google,sargo: Make button press feedback stronger.
