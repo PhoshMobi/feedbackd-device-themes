@@ -1,3 +1,11 @@
+feedbackd-device-themes 0.8.5
+-----------------------------
+Released August 2025
+* Add `key-pressed` and `key-release` events to themes that
+  override `button-*` events
+* Contributors:
+    * Guido Günther
+
 feedbackd-device-themes 0.8.4
 -----------------------------
 Released June 2025
