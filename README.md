@@ -42,7 +42,7 @@ Steps for adding a new theme
 ## Getting in Touch
 
 - Issue tracker: <https://gitlab.freedesktop.org/agx/feedbackd-device-themes/-/issues>
-- Matrix: <https://matrix.to/#/#phosh:sigxcpu.org>
+- Matrix: <https://matrix.to/#/#phosh:phosh.mobi>
 
 [feedbackd]: https://gitlab.freedesktop.org/agx/feedbackd
 [debian/control]: https://gitlab.freedesktop.org/agx/feedbackd-device-themes/-/blob/main/debian/control#L24
