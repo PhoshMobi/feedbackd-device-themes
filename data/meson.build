@@ -1,4 +1,5 @@
 theme_json = [
+  'google,bonito.json',
   'google,sargo.json',
   'oneplus,enchilada.json',
   'oneplus,fajita.json',
@@ -25,3 +26,8 @@ if json_glib_validate.found()
     command: [json_glib_validate.path()] + jsons,
   )
 endif
+
+# Symlinks for non-mainline names when the user didn't do "fastboot erase dtbo"
+install_symlink('google,b4s4-sdm670.json',
+                install_dir: feedbackd_theme_dir,
+                pointing_to: 'google,bonito.json')
