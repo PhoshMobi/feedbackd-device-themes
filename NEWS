@@ -1,3 +1,10 @@
+feedbackd-device-themes 0.8.7
+-----------------------------
+Released November 2025
+* Improve haptic feedback strengh for Pixel 3A XL
+* Contributors:
+    * Guido Günther
+
 feedbackd-device-themes 0.8.6
 -----------------------------
 Released September 2025

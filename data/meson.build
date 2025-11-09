@@ -28,6 +28,8 @@ if json_glib_validate.found()
 endif
 
 # Symlinks for non-mainline names when the user didn't do "fastboot erase dtbo"
-install_symlink('google,b4s4-sdm670.json',
-                install_dir: feedbackd_theme_dir,
-                pointing_to: 'google,bonito.json')
+install_symlink(
+  'google,b4s4-sdm670.json',
+  install_dir: feedbackd_theme_dir,
+  pointing_to: 'google,bonito.json',
+)

@@ -1,3 +1,11 @@
+feedbackd-device-themes (0.8.7) experimental; urgency=medium
+
+  * data: Bump haptic for Google Pixel 3A XL as well.
+    There is no upstream device tree yet.
+    Thanks to vogonpoet for the feedback
+
+ -- Guido Günther <agx@sigxcpu.org>  Sun, 09 Nov 2025 18:15:22 +0100
+
 feedbackd-device-themes (0.8.6) experimental; urgency=medium
 
   * sargo: Limit status LED color.
