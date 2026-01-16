@@ -1,0 +1,41 @@
+{
+  "name": "$device",
+  "parent-name": "default",
+  "profiles": [
+    {
+      "name": "quiet",
+      "feedbacks": [
+        {
+          "event-name" : "notification-new-generic",
+          "type"       : "VibraPattern",
+          "magnitudes" : [ 0.45, 0.0, 0.45 ],
+          "durations"  : [ 50, 250, 50 ]
+        },
+        {
+          "event-name" : "key-pressed",
+          "type"       : "VibraPattern",
+          "magnitudes" : [ 0.5 ],
+          "durations"  : [ 40 ]
+        },
+        {
+          "event-name" : "key-released",
+          "type"       : "VibraPattern",
+          "magnitudes" : [ 0.5 ],
+          "durations"  : [ 40 ]
+        },
+        {
+          "event-name" : "button-pressed",
+          "type"       : "VibraPattern",
+          "magnitudes" : [ 0.5 ],
+          "durations"  : [ 40 ]
+        },
+        {
+          "event-name" : "button-released",
+          "type"       : "VibraPattern",
+          "magnitudes" : [ 0.5 ],
+          "durations"  : [ 40 ]
+        }
+      ]
+    }
+  ]
+}
