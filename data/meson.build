@@ -9,6 +9,7 @@ theme_json = [
   'samsung,midas.json',
   'shift,axolotl.json',
   'xiaomi,beryllium.json',
+  'xiaomi,davinci.json'
 ]
 
 install_data(theme_json, install_dir: feedbackd_theme_dir)
