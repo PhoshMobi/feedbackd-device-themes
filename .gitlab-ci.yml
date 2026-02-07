@@ -1,10 +1,12 @@
 ---
 include:
   - remote: 'https://gitlab.freedesktop.org/freedesktop/ci-templates/-/raw/6a40df92957c8ce9ee741aaccc5daaaf70545b1e/templates/ci-fairy.yml'
-  - remote: 'https://gitlab.gnome.org/guidog/meta-phosh/-/raw/0ed15edd821f8afacbf7a9c0f2a6266873289115/ci/phosh-common-jobs.yml'
+  - remote: 'https://gitlab.gnome.org/World/Phosh/meta-phosh/-/raw/0ed15edd821f8afacbf7a9c0f2a6266873289115/ci/phosh-common-jobs.yml'
 
 variables:
   FDO_UPSTREAM_REPO: agx/feedbackd-device-themes
+  # ci-check image comes from here
+  CI_REGISTRY: registry.gitlab.gnome.org
 
 workflow:
   rules:
