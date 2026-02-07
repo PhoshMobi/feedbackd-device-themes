@@ -1,3 +1,10 @@
+feedbackd-device-themes (0.8.8) experimental; urgency=medium
+
+  [ stsdc ]
+  * data: Add xiaomi-davinci theme
+
+ -- Guido Günther <agx@sigxcpu.org>  Fri, 06 Feb 2026 20:21:40 +0100
+
 feedbackd-device-themes (0.8.7) experimental; urgency=medium
 
   * data: Bump haptic for Google Pixel 3A XL as well.
