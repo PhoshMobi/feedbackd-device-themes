@@ -32,7 +32,7 @@ feedbackd-device-themes 0.8.4
 Released June 2025
 * google,sargo: Make button press feedback stronger.
 * Issues fixed:
-    * https://gitlab.freedesktop.org/agx/feedbackd/-/issues/90
+    * https://gitlab.freedesktop.org/feedbackd/feedbackd/-/issues/90
 * Contributors:
     * Guido Günther
 
