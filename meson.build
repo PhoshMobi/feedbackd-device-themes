@@ -2,7 +2,7 @@ project(
   'feedbackd-device-themes',
   version: '0.8.8',
   license: 'GPLv3+',
-  meson_version: '>= 0.49.0',
+  meson_version: '>= 1.7.0',
   default_options: ['warning_level=1'],
 )
 
