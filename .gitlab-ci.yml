@@ -4,7 +4,7 @@ include:
   - remote: 'https://gitlab.gnome.org/World/Phosh/meta-phosh/-/raw/0ed15edd821f8afacbf7a9c0f2a6266873289115/ci/phosh-common-jobs.yml'
 
 variables:
-  FDO_UPSTREAM_REPO: agx/feedbackd-device-themes
+  FDO_UPSTREAM_REPO: feedbackd/feedbackd-device-themes
   # ci-check image comes from here
   CI_REGISTRY: registry.gitlab.gnome.org
 

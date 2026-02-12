@@ -35,7 +35,7 @@ feedbackd-device-themes (0.8.4) experimental; urgency=medium
   * google,sargo: Make button press feedback stronger.
     The current value is still not sufficient.
     Fixes a04694f ("data: Add google sargo")
-    Closes: https://gitlab.freedesktop.org/agx/feedbackd/-/issues/90
+    Closes: https://gitlab.freedesktop.org/feedbackd/feedbackd/-/issues/90
 
  -- Guido Günther <agx@sigxcpu.org>  Fri, 27 Jun 2025 15:18:09 +0200
 

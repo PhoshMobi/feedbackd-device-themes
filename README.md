@@ -11,7 +11,7 @@ Themes are licensed under the GPLv3+.
 ## Getting the source
 
 ```sh
-git clone https://gitlab.freedesktop.org/agx/feedbackd-device-themes
+git clone https://gitlab.freedesktop.org/feedbackd/feedbackd-device-themes
 cd feedbackd-device-themes
 ```
 
@@ -37,13 +37,13 @@ Steps for adding a new theme
   Make sure to chain up to the parent theme.
 - Mention your device in [debian/control][]
 - Update the copyright in [debian/copyright][]
-- Submit a merge request to <https://gitlab.freedesktop.org/agx/feedbackd-device-themes/-/merge_requests>
+- Submit a merge request to <https://gitlab.freedesktop.org/feedbackd/feedbackd-device-themes/-/merge_requests>
 
 ## Getting in Touch
 
-- Issue tracker: <https://gitlab.freedesktop.org/agx/feedbackd-device-themes/-/issues>
+- Issue tracker: <https://gitlab.freedesktop.org/feedbackd/feedbackd-device-themes/-/issues>
 - Matrix: <https://matrix.to/#/#phosh:phosh.mobi>
 
-[feedbackd]: https://gitlab.freedesktop.org/agx/feedbackd
-[debian/control]: https://gitlab.freedesktop.org/agx/feedbackd-device-themes/-/blob/main/debian/control#L24
-[debian/copyright]: https://gitlab.freedesktop.org/agx/feedbackd-device-themes/-/blob/main/debian/copyright#L11
+[feedbackd]: https://gitlab.freedesktop.org/feedbackd/feedbackd
+[debian/control]: https://gitlab.freedesktop.org/feedbackd/feedbackd-device-themes/-/blob/main/debian/control#L24
+[debian/copyright]: https://gitlab.freedesktop.org/feedbackd/feedbackd-device-themes/-/blob/main/debian/copyright#L11
