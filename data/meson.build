@@ -1,4 +1,5 @@
 theme_json = [
+  'fairphone,fp5.json',
   'google,bonito.json',
   'google,sargo.json',
   'oneplus,enchilada.json',
