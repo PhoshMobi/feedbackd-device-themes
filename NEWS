@@ -1,3 +1,10 @@
+feedbackd-device-themes 0.8.9
+-----------------------------
+Released May 2026
+* fairphone,fp5: Make button press feedback stronger.
+* Contributors:
+    * Guido Günther
+
 feedbackd-device-themes 0.8.8
 -----------------------------
 Released February 2026
