@@ -1,3 +1,14 @@
+feedbackd-device-themes (0.8.9) experimental; urgency=medium
+
+  * build: Use meson 1.7. Fix the deprecations
+  * build: Rename options to meson.options
+  * ci: Update shared scripts to fe94386
+  * treewide: Move to fdo project group
+  * data: Add Fairphone 5.
+    The current haptic for OSK button presses is uncertain and too soft.
+
+ -- Guido Günther <agx@sigxcpu.org>  Wed, 13 May 2026 11:54:06 +0200
+
 feedbackd-device-themes (0.8.8) experimental; urgency=medium
 
   [ stsdc ]
