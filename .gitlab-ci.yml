@@ -54,6 +54,10 @@ test:native-debian-forky:
   script:
     - meson -Dvalidate=enabled --wipe _build
     - meson test -v --print-errorlogs -C _build
+  artifacts:
+    when: always
+    reports:
+      junit: _build/meson-logs/testlog.junit.xml
 
 check-consistency:
   stage: test
